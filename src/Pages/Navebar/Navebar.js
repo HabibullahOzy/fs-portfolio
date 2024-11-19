@@ -25,12 +25,12 @@ const Navebar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
               <li><a>Home</a></li>
               <li>
-                <a>about</a>
+                <a href='#Education'>about</a>
 
               </li>
-              <li><a>Skills</a></li>
-              <li><a>Publications</a></li>
-              <li><a>Contact</a></li>
+              <li><a href='#Skill' >Skills</a></li>
+              <li><a href='#Publication'>Publications</a></li>
+              <li><a href='#contact'>Contact</a></li>
             </ul>
           </div>
           {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
@@ -43,7 +43,7 @@ const Navebar = () => {
             </li>
             <li><a href='#Skill' className='btn hover:btn-info bg-white border-none'>Skills</a></li>
             <li><a href='#Publication' className='btn hover:btn-info bg-white border-none'>Publications</a></li>
-            <li><a className='btn hover:btn-info bg-white border-none'>Contact</a></li>
+            <li><a href='#contact' className='btn hover:btn-info bg-white border-none'>Contact</a></li>
           </ul>
         </div>
 
