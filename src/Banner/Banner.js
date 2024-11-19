@@ -31,7 +31,7 @@ const Banner = () => {
                         Passionate about building intelligent systems and developing innovative solutions for complex problems.
                     </p>
                     <div className="buttons">
-                        <button className="btn contact-btn">Get In Touch</button>
+                        <a href='#contact'><button className="btn contact-btn">Get In Touch</button></a>
                         <button className="btn resume-btn">Download Resume</button>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Banner from './Banner/Banner';
-import Certifacte from './Pages/Certificate/Certifacte';
+// import Certifacte from './Pages/Certificate/Certifacte';
 import Education from './Pages/Education/Education';
 import Experience from './Pages/Expreience/Experience';
 import Footer from './Pages/Footer/Footer';

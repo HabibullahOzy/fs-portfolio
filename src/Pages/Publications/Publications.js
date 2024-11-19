@@ -10,10 +10,10 @@ const Publications = () => {
                 <div className='lg:flex justify-around sm:grid'>
                     <div className='w-1/2'>
                         <h1 className=' text-xl font-semibold text-sky-500 mb-0.5'>Baad: A multipurpose dataset for Automatic Bangla Offensive Speech Recognition</h1>
-                        <h4 className=' font-semibold justify-start'>Md. F. Hossain, Md. A. Supto, Z. Chowdhury, H. S. Chowdhury, and S. Abujar</h4>
+                        <h4 className=' font-semibold justify-start'><span className='font-bold font-serif'>Md. F. Hossain</span>, Md. A. Supto, Z. Chowdhury, H. S. Chowdhury, and S. Abujar</h4>
                         <p className=' text-gray-300 justify-start'>Data in Brief, vol. 48, 2023</p>
                     </div>
-                    <a href='https://www.sciencedirect.com/science/article/pii/S2352340923001853/' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://www.sciencedirect.com/science/article/pii/S2352340923001853/' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -24,12 +24,12 @@ const Publications = () => {
                         <h1 className=' text-xl font-semibold text-sky-500 mb-0.5'>Baad: A machine learning
                             approach to recognize speakers region of the United Kingdom from continuous speech based
                             on Accent Classification,</h1>
-                        <h4 className=' font-semibold justify-start'><span className='font-bold font-serif text-xl font'>Md. F. Hossain</span>, Md. M. Hasan, H. Ali, M. R. Sarker, and Md. T. Hassan</h4>
+                        <h4 className=' font-semibold justify-start'><span className='font-bold font-serif'>Md. F. Hossain</span>, Md. M. Hasan, H. Ali, M. R. Sarker, and Md. T. Hassan</h4>
                         <p className=' text-gray-300 justify-start'>11th International Conference on Electrical and Computer
                         Engineering (ICECE), 2020.</p>
                     </div>
                     <a href='https://ieeexplore.ieee.org/document/9393038
-' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -44,7 +44,7 @@ const Publications = () => {
                         <h4 className=' font-semibold justify-start'>H. Ali, <span className='font-bold font-serif text-xl font'>Md. F. Hossain</span> , Md. M. Hasan, and S. Abujar</h4>
                         <p className=' text-gray-300 justify-start'>Data in Brief, vol. 32, 2020</p>
                     </div>
-                    <a href='https://www.sciencedirect.com/science/article/pii/S2352340920310672/' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://www.sciencedirect.com/science/article/pii/S2352340920310672/' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -59,7 +59,7 @@ const Publications = () => {
                         <p className=' text-gray-300 justify-start'> 11th International Conference on Computing,
                         Communication and Networking Technologies (ICCCNT), 2020.</p>
                     </div>
-                    <a href='https://ieeexplore.ieee.org/document/9225565' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://ieeexplore.ieee.org/document/9225565' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -74,7 +74,7 @@ const Publications = () => {
                         <p className=' text-gray-300 justify-start'>11th International Conference on Computing,
 Communication and Networking Technologies (ICCCNT), 2020</p>
                     </div>
-                    <a href='https://ieeexplore.ieee.org/document/9225469' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://ieeexplore.ieee.org/document/9225469' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -88,7 +88,7 @@ Communication and Networking Technologies (ICCCNT), 2020</p>
                         <h4 className=' font-semibold justify-start'><span className='font-bold font-serif text-xl font'>Md. F. Hossain</span>,Md.MehediHasan,H.Ali,andS.Abujar,</h4>
                         <p className=' text-gray-300 justify-start'>AdvancesinIntelligentSystemsandComputing,pp.525–534,2020.</p>
                     </div>
-                    <a href='https://link.springer.com/chapter/10.1007/978-981-15-7394-1_48' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://link.springer.com/chapter/10.1007/978-981-15-7394-1_48' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -102,7 +102,7 @@ Communication and Networking Technologies (ICCCNT), 2020</p>
                         <p className=' text-gray-300 justify-start'>12thInternationalConferenceonComputingCommunicationand
                         NetworkingTechnologies(ICCCNT),2021.</p>
                     </div>
-                    <a href='https://ieeexplore.ieee.org/document/9579775' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://ieeexplore.ieee.org/document/9579775' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -117,7 +117,7 @@ algorithms</h1>
                         <p className=' text-gray-300 justify-start'>112thInternationalConferenceonComputingCommunicationandNetworking
                         Technologies(ICCCNT),2021.</p>
                     </div>
-                    <a href='https://ieeexplore.ieee.org/document/9579860' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://ieeexplore.ieee.org/document/9579860' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
 
@@ -134,7 +134,7 @@ algorithms</h1>
                         <p className=' text-gray-300 justify-start'>12thInternationalConferenceon
                         ComputingCommunicationandNetworkingTechnologies(ICCCNT),2021</p>
                     </div>
-                    <a href='https://ieeexplore.ieee.org/document/9579861' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
+                    <a href='https://ieeexplore.ieee.org/document/9579861' target='_blank' className='font-semibold '><button className='border btn mt-5 border-blue-100 text-black px-4 transition-all duration-300 hover:bg-blue-100 hover:text-blue-500 focus:outline-none'>See paper</button></a>
                 </div>
 
             </div>
