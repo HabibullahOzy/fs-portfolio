@@ -1,0 +1,5 @@
+.imgDesign:hover{
+    transform: scale(1.7) rotate(0deg);
+    position: sticky;
+    justify-items: center;
+}

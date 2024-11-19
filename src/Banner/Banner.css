@@ -1,0 +1,271 @@
+/* General Styles */
+.intro-section {
+    
+    position: relative;
+    padding: 50px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    overflow: hidden;
+    margin-top: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .text-section {
+        max-width: 50%;
+    }
+
+    .image-section {
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Text Styles */
+.text-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .text-section h1 {
+        font-size: 3rem;
+    }
+}
+
+.text-section p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .buttons {
+        justify-content: flex-start;
+    }
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+.resume-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Image Section */
+.image-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+@media (min-width: 768px) {
+    .profile-pic {
+        width: 300px;
+    }
+}
+
+/* Background Effect */
+/* .background-effect {
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+} */
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(  rgb(234, 231, 231) 0%, rgba(255, 255, 255, 0) 60%);
+    /* opacity: 0.5; */
+    animation: float 10s infinite ease-in-out;
+    z-index: -5;
+    filter: blur(5px);
+}
+
+.bubble1 {
+    width: 20px;
+    height: 20px;
+    top: 20%;
+    left: 30%;
+    background-color: #8ae88a;
+    animation-duration: 10s;
+    /* opacity: 0.6; */
+    /* z-index: 0; */
+}
+
+.bubble2 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 70%;
+    background-color: #f1c40f;
+    /* z-index: 0; */
+    /* opacity: 0.5; */
+}
+
+.bubble3 {
+    width: 40px;
+    height: 40px;
+    top: 70%;
+    left: 20%;
+    background-color: #ff6f61;
+    animation-duration: 20s;
+    /* opacity: 0.3; */
+}
+
+.bubble4 {
+    width: 30px;
+    height: 30px;
+    top: 10%;
+    left: 60%;
+    background-color: #3498db;
+    animation-duration: 30s;
+    /* opacity: 0.7; */
+}
+
+.bubble5 {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 33%;
+    background-color: #ac5dcc;
+    animation-duration: 30s;
+    /* opacity: 0.2; */
+    /* z-index: 0; */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-20px) translateX(20px);
+    }
+
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+
+@media (max-width: 915px) {
+
+    .bubble {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(  rgb(234, 231, 231) 0%, rgba(255, 255, 255, 0) 60%);
+        /* opacity: 0.5; */
+        animation: float 10s infinite ease-in-out;
+        z-index: -5;
+        filter: blur(5px);
+    }
+
+
+    .bubble1 {
+        width: 20px;
+        height: 20px;
+        top: 20%;
+        left: 15%;
+        background-color: #8ae88a;
+        animation-duration: 10s;
+        /* opacity: 0.6; */
+        /* z-index: 0; */
+    }
+    
+    .bubble2 {
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        left: 75%;
+        background-color: #f1c40f;
+        /* z-index: 0; */
+        /* opacity: 0.5; */
+    }
+    
+    .bubble3 {
+        width: 40px;
+        height: 40px;
+        top: 70%;
+        left: 5%;
+        background-color: #ff6f61;
+        animation-duration: 20s;
+        /* opacity: 0.3; */
+    }
+    
+    .bubble4 {
+        width: 30px;
+        height: 30px;
+        top: 10%;
+        left: 60%;
+        background-color: #3498db;
+        animation-duration: 30s;
+        /* opacity: 0.7; */
+    }
+    
+    .bubble5 {
+        width: 150px;
+        height: 150px;
+        top: 10%;
+        left: 20%;
+        background-color: #ac5dcc;
+        animation-duration: 30s;
+        /* opacity: 0.2; */
+        /* z-index: 0; */
+    }
+}
