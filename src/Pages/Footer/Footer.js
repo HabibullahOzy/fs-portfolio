@@ -11,15 +11,10 @@ const Footer = () => {
                     <p>
                         +880 19 467 04373
                         <br />
-                        farhadhossian@gmail.com
+                        fahadhossain.cs@gmail.com
                     </p>
 
-                    <div className='flex space-x-4'>
-                        <a href='https://github.com/fahad35'><FaGithub className='' /></a>
-                        <a href='https://www.linkedin.com/in/md-fahad-hossain-768708155?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedin className='' /></a>
-                        <a href='https://www.researchgate.net/profile/Md-Fahad-Hossain'><SiResearchgate /></a>
 
-                    </div>
                 </aside>
                 {/* <nav>
                     <h6 className="footer-title">Services</h6>
@@ -29,12 +24,21 @@ const Footer = () => {
                     <a className="link link-hover">Advertisement</a>
                 </nav> */}
 
+
+                <div className='flex space-x-4'>
+                    <a href='https://github.com/fahad35'><FaGithub className=' size-5' /></a>
+                    <a href='https://www.linkedin.com/in/md-fahad-hossain-768708155?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedin className='size-5' /></a>
+                    <a href='https://www.researchgate.net/profile/Md-Fahad-Hossain'><SiResearchgate className='size-5'/></a>
+                </div>
+
+
+
                 <nav>
                     <h6 className="footer-title">Important Link</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
                     <a className="link link-hover">Jobs</a>
-                    
+
                 </nav>
 
             </footer>
