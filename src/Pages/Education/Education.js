@@ -7,7 +7,7 @@ const Education = () => {
 
            <div className=' justify-between lg:flex m-12 md:flex sm:grid'>
                     <div>
-                        <h2 className='font-semibold text-sky-500'>M.Sc. in Computer Science & University</h2>
+                        <h2 className='font-semibold text-sky-500'>M.Sc. in Computer Science & Engneering</h2>
                         <p className='text-gray-400'>Daffodil International University</p>
                     </div>
                     <div>
@@ -20,7 +20,7 @@ const Education = () => {
 
                 <div className=' justify-between lg:flex m-12 md:flex sm:grid'>
                     <div>
-                        <h2 className='font-semibold text-sky-500'>B.Sc. in Computer Science & University</h2>
+                        <h2 className='font-semibold text-sky-500'>B.Sc. in Computer Science & Engneering</h2>
                         <p className='text-gray-400'>Daffodil International University</p>
                     </div>
                     <div>
